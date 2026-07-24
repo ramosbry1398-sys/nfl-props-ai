@@ -5,25 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.1.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "@supabase/ssr": "latest",
-    "@supabase/supabase-js": "latest",
-    "lucide-react": "latest",
-    "tailwind-merge": "latest",
-    "clsx": "latest"
-  },
-  "devDependencies": {
-    "typescript": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "3.4.1",
+    "postcss": "8.4.35",
+    "autoprefixer": "10.4.17"
   }
 }
